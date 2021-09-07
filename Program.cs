@@ -19,16 +19,17 @@ namespace Quilt
         {
             Console.WriteLine("Let's build a quilt!");
         }
-        while(Input != "L")
+        
+        
+        while(Input) == "L"))
         {
             Console.WriteLine("\n--Pick the shape you would like to add--");
-            Console.WriteLine("S) Add a square");
-            Console.WriteLine("R) Add a rectangle");
-            Console.WriteLine("T) Add a triangle");
-            Console.WriteLine("L) List shapes");
+            Console.WriteLine("S Add a square");
+            Console.WriteLine("R Add a rectangle");
+            Console.WriteLine("T Add a triangle");
+            Console.WriteLine("L List shapes");
             Input = Console.Readline();
-            }
-
+  
             if(Input == "S")
             {
             Square squareS = new Square();
@@ -36,10 +37,10 @@ namespace Quilt
             squareS.Side1 = Convert.ToInt32(Console.Readline());
             Console.WriteLine("Enter the color of the square: ");
             squareS.Color = Console.Readline();
-            Console.WriteLine($The area of your square is: " + squareS.GetArea());
+            Console.WriteLine($"The area of your square is: " + squareS.GetArea());
 
-            shapes.Add(new Square(squareS.Side1, squareS.Color));
-            }
+            shapes.Add(new Square(squareS.Side1 squareS.Color));
+            
 
             if(Input == "R")
             {
@@ -48,11 +49,10 @@ namespace Quilt
             rectangleR.Side1 = Convert.ToInt32(Console.Readline());
             Console.WriteLine("Enter the color of the rectangle: ");
             rectangleR.Color = Console.Readline();
-            Console.WriteLine($The area of your rectangle is: " + rectanlgeR.GetArea());
+            Console.WriteLine($"The area of your rectangle is: " + rectanlgeR.GetArea());
 
 
             shapes.Add(new Rectangle(rectangleR.Side1, rectangleR.Side2 rectangleR.Color));
-            }
 
             if(Input) == "T")
             {
@@ -64,13 +64,10 @@ namespace Quilt
             Console.WriteLine($The area of your square is: " + triangleT.GetArea());
 
             shapes.Add(new Triangle(triangleT.Side1, triangleT.Side2, triangleT.Side3, triangleT.Color));
-            }
 
-            if (Input) == "L")
+           if (Input) == "L")
            {
            List shapesL = new List();
-           Console.WriteLine("Square, Rectangle, Triangle: ");
-           }
-        }
+           Console.WriteLine("Square, Rectangle, Triangle: ");  
     }
 }

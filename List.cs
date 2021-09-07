@@ -6,6 +6,7 @@ namespace Quilt
 {
     public class List
     {
+        private List<Shape> shapes = new List<Shape>();
         Square squareS = new Square();
         Rectangle rectangleR = new Rectangle();
         Triangle triangleT = new Triangle();

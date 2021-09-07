@@ -9,6 +9,12 @@ namespace Quilt
     {
         public int side1;
 
+        public override void Draw()
+        {
+            Console.WriteLine("You made a square for your quilt!");
+            base.Draw();
+        }
+
         public Square(string color, int side)
         {
             Name = "Square";
@@ -18,6 +24,7 @@ namespace Quilt
 
         public Square()
         {
+            Console.ForegroundColor = ConsoleColor.White;
         }
 
         public override int GetArea()
