@@ -1,0 +1,5 @@
+C:\Users\laryder\Documents\first_git_project\QuiltProjectWeek8\obj\Debug\netcoreapp3.1\Quilt.csproj.AssemblyReference.cache
+C:\Users\laryder\Documents\first_git_project\QuiltProjectWeek8\obj\Debug\netcoreapp3.1\Quilt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\laryder\Documents\first_git_project\QuiltProjectWeek8\obj\Debug\netcoreapp3.1\Quilt.AssemblyInfoInputs.cache
+C:\Users\laryder\Documents\first_git_project\QuiltProjectWeek8\obj\Debug\netcoreapp3.1\Quilt.AssemblyInfo.cs
+C:\Users\laryder\Documents\first_git_project\QuiltProjectWeek8\obj\Debug\netcoreapp3.1\Quilt.csproj.CoreCompileInputs.cache
